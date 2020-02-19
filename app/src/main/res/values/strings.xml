@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Belediyem Yanimda</string>
+    <string name="edtTxtTcNo">TC Kimlik No</string>
+    <string name="edtTxtPassword">Şifre</string>
+    <string name="edtTxtName">Ad</string>
+    <string name="edtTxtSurname">Soyad</string>
+    <string name="edtTxtEmail">E-Posta</string>
+    <string name="edtTxtPhoneNo">Cep Numarası</string>
+    <string name="edtTxtPasswordAgain">Şifre Tekrar</string>
+
 </resources>
