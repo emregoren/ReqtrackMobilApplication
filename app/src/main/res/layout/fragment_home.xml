@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryDarkColor">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDarkOrange"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/mainImageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:srcCompat="@color/colorAccent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnNewComplaint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:gravity="start|center"
+        android:text="Yeni Başvuru"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        app:icon="@drawable/abc_vector_test"
+        app:iconSize="100dp"
+        app:layout_constraintTop_toBottomOf="@id/mainImageView"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnComplaint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:gravity="start|center"
+        android:text="Başvurularım"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        app:icon="@drawable/abc_vector_test"
+        app:iconSize="100dp"
+        app:layout_constraintTop_toBottomOf="@id/btnNewComplaint"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:gravity="center|start"
+        android:text="Profil"
+        android:textAlignment="viewStart"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        app:icon="@drawable/abc_vector_test"
+        app:iconSize="100dp"
+        app:layout_constraintTop_toBottomOf="@id/btnComplaint" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

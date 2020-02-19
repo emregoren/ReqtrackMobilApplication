@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Belediyem Yanimda</string>
+
     <string name="edtTxtTcNo">TC Kimlik No</string>
     <string name="edtTxtPassword">Şifre</string>
     <string name="edtTxtName">Ad</string>
@@ -7,5 +8,18 @@
     <string name="edtTxtEmail">E-Posta</string>
     <string name="edtTxtPhoneNo">Cep Numarası</string>
     <string name="edtTxtPasswordAgain">Şifre Tekrar</string>
+
+    <string name="btnRegister">Kayıt Ol</string>
+    <string name="btnLogin">Giriş Yap</string>
+
+    <string name="openDrawer">Nagivation Drawer Open</string>
+    <string name="closeDrawer">Nagivation Drawer Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="itemNewComplaint">Yeni Başvuru</string>
+    <string name="itemComplaint">Başvurularım</string>
+    <string name="itemProfile">Profil</string>
+    <string name="itemHome">Anasayfa</string>
 
 </resources>

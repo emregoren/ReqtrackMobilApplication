@@ -1,12 +1,13 @@
-package com.ketechsoft.belediyemyanimda
+package com.ketechsoft.belediyemyanimda.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.ketechsoft.belediyemyanimda.R
 
-class RegisterActivity : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_register)
+        setContentView(R.layout.activity_login)
     }
 }
