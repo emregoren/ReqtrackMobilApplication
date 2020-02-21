@@ -17,9 +17,9 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="itemNewComplaint">Yeni Başvuru</string>
-    <string name="itemComplaint">Başvurularım</string>
-    <string name="itemProfile">Profil</string>
-    <string name="itemHome">Anasayfa</string>
+    <string name="newComplaint">Yeni Başvuru</string>
+    <string name="complaint">Başvurularım</string>
+    <string name="profile">Profil</string>
+    <string name="home">Anasayfa</string>
 
 </resources>

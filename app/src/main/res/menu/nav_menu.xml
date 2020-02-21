@@ -4,18 +4,20 @@
     <item
         android:id="@+id/itemHome"
         android:icon="@drawable/abc_vector_test"
-        android:title="@string/itemHome"></item>
+        android:title="@string/home">
+
+    </item>
     <item
         android:id="@+id/itemNewComplaint"
         android:icon="@drawable/abc_vector_test"
-        android:title="@string/itemNewComplaint" />
+        android:title="@string/newComplaint" />
     <item
         android:id="@+id/itemComplaint"
         android:icon="@drawable/abc_vector_test"
-        android:title="@string/itemComplaint" />
+        android:title="@string/complaint" />
     <item
         android:id="@+id/itemProfile"
         android:icon="@drawable/abc_vector_test"
-        android:title="@string/itemProfile" />
+        android:title="@string/profile" />
 
 </menu>
