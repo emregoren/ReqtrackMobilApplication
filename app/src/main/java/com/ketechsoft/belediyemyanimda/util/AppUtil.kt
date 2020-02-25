@@ -1,6 +1,7 @@
 package com.ketechsoft.belediyemyanimda.util
 
 import android.content.Context
+import android.content.Intent
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
@@ -22,4 +23,9 @@ infix fun String.extToastMessage(context: Context) {
 
 fun Fragment.extReplaceTo(viewId: Int, fragmentManager: FragmentManager) {
     fragmentManager.beginTransaction().replace(viewId, this).commit()
+}
+
+infix fun <ClassName> Context.extStartActivity(cls: Class<ClassName>) {
+    val intent = Intent(this, cls)
+    startActivity(intent)
 }

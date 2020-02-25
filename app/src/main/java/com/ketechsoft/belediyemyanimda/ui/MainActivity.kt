@@ -1,5 +1,6 @@
 package com.ketechsoft.belediyemyanimda.ui
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -41,10 +42,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 R.id.fragment_container,
                 supportFragmentManager
             )
-            itemNewComplaint -> NewComplaintFragment().extReplaceTo(
-                R.id.fragment_container,
-                supportFragmentManager
-            )
+            itemNewComplaint -> {
+                startActivity(Intent(this, MapsActivity::class.java))
+            }
+
             itemComplaint -> ComplaintFragment().extReplaceTo(
                 R.id.fragment_container,
                 supportFragmentManager

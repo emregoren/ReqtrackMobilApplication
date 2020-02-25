@@ -28,5 +28,4 @@ class ComplaintListAdapter(val complaintList: List<ComplaintModel>) :
     override fun onBindViewHolder(holder: ComplaintListViewHolder, position: Int) {
         holder.bind(complaintList[position])
     }
-
 }
