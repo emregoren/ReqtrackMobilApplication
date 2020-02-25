@@ -21,5 +21,6 @@
     <string name="complaint">Başvurularım</string>
     <string name="profile">Profil</string>
     <string name="home">Anasayfa</string>
+    <string name="title_activity_maps">Map</string>
 
 </resources>
