@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.ketechsoft.belediyemyanimda.R
 
+
 /**
  * A simple [Fragment] subclass.
  */

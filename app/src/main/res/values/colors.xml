@@ -5,10 +5,10 @@
     <color name="colorAccent">#D81B60</color>
 
 
-    <color name="primaryColor">#81d4fa</color>
-    <color name="primaryLightColor">#b6ffff</color>
-    <color name="primaryDarkColor">#4ba3c7</color>
-    <color name="primaryTextColor">#000000</color>
+    <color name="primaryColor">#312783</color>
+    <color name="primaryLightColor">#6450b3</color>
+    <color name="primaryDarkColor">#000055</color>
+    <color name="primaryTextColor">#ffffff</color>
 
 
     <color name="colorRed">#D80D0D</color>

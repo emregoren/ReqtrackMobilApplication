@@ -1,6 +1,7 @@
 package com.ketechsoft.belediyemyanimda.ui
 
 import android.content.Intent
+import android.graphics.Color
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -18,7 +19,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        main_toolbar.setTitleTextColor(Color.WHITE)
         setSupportActionBar(main_toolbar)
+
 
         val actionBarDrawerToggle = ActionBarDrawerToggle(
             this,
@@ -31,7 +34,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         drawer_layout.addDrawerListener(actionBarDrawerToggle)
         actionBarDrawerToggle.syncState()
         naw_niew.setNavigationItemSelectedListener(this)
-
         HomeFragment().extReplaceTo(R.id.fragment_container, supportFragmentManager)
 
     }
@@ -46,10 +48,13 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 startActivity(Intent(this, MapsActivity::class.java))
             }
 
-            itemComplaint -> ComplaintFragment().extReplaceTo(
-                R.id.fragment_container,
-                supportFragmentManager
-            )
+            itemComplaint -> {
+                ComplaintFragment().extReplaceTo(
+                    R.id.fragment_container,
+                    supportFragmentManager
+                )
+                main_toolbar.title = "Başvurularım"
+            }
             itemProfile -> ProfileFragment().extReplaceTo(
                 R.id.fragment_container,
                 supportFragmentManager
